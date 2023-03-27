@@ -31,7 +31,7 @@ refs.selectCurrency.addEventListener('change', currencyOnSelect);
 refs.uahInputEl.addEventListener('input', uahElOnInput);
 
 function uahElOnInput(e) {
-  const result = (e.currentTarget.value * Number(buyRate)).toFixed(2);
+  const result = (e.currentTarget.value/Number(buyRate)).toFixed(2);
   refs.exchangeResult.textContent = result;
 }
 
