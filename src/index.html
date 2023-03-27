@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Данные по курсу к UAH в отделениях на текущий момент</h1>
+    <div class="container-currency-table"></div>
+    <h1>Данные по курсу к UAH в отделениях на определенную дату</h1>
+    
+
+    <form class="converter-form" action="">
+      <label> Выбери дату: <input type="text" id="datetime-picker" /></label>
+      <div class="currency-container"></div>
+      <select name="select" class="select-currency">
+      </select>
+      <p>Курс покупки: <span class="buy-rate"></span> </p>
+    </div>
+    <div>
+      <div class="exchange-container">
+      <label> UAH : <input class="uah-input" type="text" name="uah-qty" /></label>
+      
+      <span  class="currency-name"></span><span class="exchange-result"></span>
+    </div>
+  </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+@import './common';
+@import './example';
+
+th,
+td {
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.uah-span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.currency-container {
+  display: flex;
+}
+
+.exchange-container {
+  display: flex;
+}
+
+.uah-input {
+  margin-right: 20px;
+}
+
+.select-currency {
+  margin-top: 10px;
+}
